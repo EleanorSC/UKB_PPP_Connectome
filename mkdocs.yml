@@ -1,0 +1,38 @@
+site_name: UKB-PPP-Connectome
+repo_url: https://github.com/EleanorSC/UKB_PPP_Connectome
+edit_uri: ""
+nav:
+  - "": README.md
+  - doc/UKB_PPP_analysis_plan.md
+  - Implementation:
+    - prep/README.md
+theme:
+    name: mkdocs
+    nav_style: dark
+    highlightjs: true
+    hljs_languages:
+        - Bash
+        - HTML
+        - Java
+        - JavaScript
+        - Perl
+        - Python
+        - R
+        - rust
+        - yaml
+plugins:
+    - search
+    - mermaid2
+markdown_extensions:
+  - toc:
+      permalink: True
+      separator: "_"
+  - attr_list
+  - footnotes
+  - meta
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
