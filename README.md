@@ -23,8 +23,18 @@ The goal is to identify interrelated sets of plasma proteins that map onto gradi
 
 ![Main relationships](images/figure_1.png)
 
-The examination of the plasma proteome with multifaceted neuroimaging metrics. Integration of plasma proteomic data as the input (X) with various neuroimaging measures as outcomes (Y) in a series of PLS2 models. The central proteomics matrix represents data for ~ 1,463 proteins across 4,644 individuals*, and serves as the consistent predictor set across multiple models. To the far left, the structural connectome maps white matter connectivity by tracing interconnections throughout the brain, enabling the computation of network metrics, using network metrics streamline count (SC) to assess the brain's network integrity. Adjacent, white matter microstructure will be analysed with metrics such as fractional anisotropy (FA), mean diffusivity (MD), intracellular volume fraction (ICVF), isotropic volume fraction (ISOVF), and orientation dispersion (OD), across 27 white matter tracts. Regional cortical volume and thickness across 34 areas, volume of white matter hyperintensities (WMH) and global grey and white matter volumes are also to be evaluated in their relation to proteomic variance. Each neuroimaging metric is paired with its corresponding Y matrix, illustrating the dimensions of the outcome data in relation to the uniform proteomics input. Together, these analyses represent a comprehensive examination of how peripheral protein profiles may relate to diverse aspects of brain structure and pathology. *exact numbers to be determined after data pre-processing*
+**Figure 1. Multivariate modelling framework linking the plasma proteome to neuroimaging phenotypes.**  
+Plasma proteomic data (X matrix; ~1,463 proteins across ~4,644 individuals, final sample determined post–quality control) were integrated with multiple neuroimaging outcome domains (Y matrices) using a series of Partial Least Squares (PLS2) models. The proteomics matrix served as a common predictor set across all models.
 
+Neuroimaging outcomes included:
+
+- **Structural connectome metrics** derived from white matter tractography, including streamline count (SC) as an index of network integrity  
+- **White matter microstructure measures** across 27 major tracts, including fractional anisotropy (FA), mean diffusivity (MD), intracellular volume fraction (ICVF), isotropic volume fraction (ISOVF), and orientation dispersion (OD)  
+- **Regional cortical volume and thickness** across 34 cortical regions  
+- **White matter hyperintensity (WMH) volume** as a marker of small vessel disease  
+- **Global grey and white matter volumes**
+
+Each imaging domain was modelled as a distinct Y matrix aligned to the same proteomic predictor space, enabling systematic evaluation of shared and domain-specific proteome–brain structure relationships.
 
 ## Research Aims
 
