@@ -5,20 +5,18 @@ Here, we use PLS2 as a dimensionality reduction technique to examine proteome–
 
 ## Research Aims and Questions
 
-
-Aim 1: To elucidate the relationship between the plasma proteome and brain structure.
+### Aim 1: To elucidate the relationship between the plasma proteome and brain structure.
 •	RQ1.1: Are differential concentrations of plasma proteins associated with global metrics (global grey matter, global white matter volume, global fractional anisotropy and mean diffusivity)
 •	RQ1.2: What is the relationship between plasma protein levels and regional cortical volume variations?
 •	RQ1.3: How does the plasma proteome relate to white matter microstructure and the connectome?
 •	RQ1.4: To what extent do plasma protein variations correspond with markers of small vessel disease, specifically white matter hyperintensity volume?
-Aim 2: To explore the functional implications of proteins significant to brain health.
+### Aim 2: To explore the functional implications of proteins significant to brain health.
 •	RQ2.1: Which biological pathways are enriched among proteins linked to neuroimaging metrics, and what do these suggest about their roles in brain health and disease?
-Aim 3: To assess the effects of lifestyle factors on proteome-brain structure relationships.
+### Aim 3: To assess the effects of lifestyle factors on proteome-brain structure relationships.
 •	RQ3: How do lifestyle factors and vascular risk markers influence the associations between the plasma proteome and neuroimaging outcomes?
-Aim 4: To compare the efficacy of top-contributing proteins against composite inflammatory signatures in predicting brain health.
+### Aim 4: To compare the efficacy of top-contributing proteins against composite inflammatory signatures in predicting brain health.
 •	RQ4.1: Do proteins with the highest contributions to predictive models outperform a generalised inflammatory signature in relation to neuroimaging metrics?
 •	RQ4.2: How do these proteins compare to composite ProteinScores developed for inflammatory conditions in their explanatory power for variations in neuroimaging metrics?
-<img width="468" height="293" alt="image" src="https://github.com/user-attachments/assets/694d69a6-b25b-4545-9657-3ea1d537e59c" />
 
 
 ![Main relationships](images/figure_1.png)
